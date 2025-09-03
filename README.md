@@ -103,7 +103,7 @@ It supports **rich-text formatting** (bold/italic) in the email body and shows a
 Clone this repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/auto-email-sender.git
+git clone https://github.com/HafizMuhammadMateen/auto-email-sender.git
 cd auto-email-sender
 ```
 
@@ -118,3 +118,4 @@ python start.py
 ## License
 
 This project is free to use for personal or educational purposes.
+
