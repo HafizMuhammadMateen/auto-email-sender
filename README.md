@@ -1,8 +1,3 @@
-Got it 👍 — I’ll extend the README with those two extra points.
-Here’s the updated **README.md**:
-
----
-
 # Auto Email Sender (Tkinter + Gmail)
 
 This is a desktop tool built with **Python + Tkinter** to send bulk emails with attachments (e.g., resumes) to a list of recipients stored in an Excel file.
@@ -106,7 +101,3 @@ Tkinter, smtplib, and email are part of the standard library.
 ## License
 
 This project is free to use for personal or educational purposes.
-
----
-
-Do you want me to also add a **Quick Demo** section in the README (like: step-by-step with screenshots placeholders: “Main UI”, “Progress Window”), so anyone cloning can follow easily?
