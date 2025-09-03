@@ -15,19 +15,14 @@ It supports **rich-text formatting** (bold/italic) in the email body and shows a
 * 🔑 Secure login with Gmail **App Password** (not your normal Gmail password).
 * 📌 `HRs Emails.xlsx` is already included in the project folder — no need to create or mess with it.
 * 📨 A sample email body text is provided in `Sample_Email.md` for quick use (or write your own).
+* 🚀 One-click startup via `start.py` (installs missing dependencies automatically).
 
 ---
 
 ## Requirements
 
 * Python **3.8+**
-* Required libraries:
-
-  ```bash
-  pip install pandas
-  ```
-
-Tkinter, smtplib, and email are part of the standard library.
+* No need to manually install packages — `start.py` will auto-install missing ones.
 
 ---
 
@@ -63,9 +58,14 @@ Tkinter, smtplib, and email are part of the standard library.
 
 4. **Run the program**
 
+   Just one command:
+
    ```bash
-   python auto_email_sender.py
+   python start.py
    ```
+
+   * If packages are missing, they’ll be installed automatically.
+   * Then the main app (`auto_email_sender.py`) will launch.
 
 ---
 
@@ -95,6 +95,23 @@ Tkinter, smtplib, and email are part of the standard library.
   * Gmail address is correct.
   * App Password (16 characters) is used.
   * Less secure app access is **NOT needed** (this works with App Passwords).
+
+---
+
+## Installation (for contributors)
+
+Clone this repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/auto-email-sender.git
+cd auto-email-sender
+```
+
+Run:
+
+```bash
+python start.py
+```
 
 ---
 
