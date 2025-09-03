@@ -6,7 +6,7 @@ In my **FYP**, I developed an advanced deep learning-based **Retinal Disease Det
 
 **Some of my other Projects:**
 • **Real-Time Object Detection (YOLOv5)**
-• **Urdu NLP Sentiment Analyzer \& Summarizer**
+• **Urdu NLP Sentiment Analyzer & Summarizer**
 • **Alumni Management System (.NET)**
 • **IT Support Ticketing Platform (MERN Stack)**
 
@@ -19,4 +19,5 @@ Warm Regards,
 💬 WhatsApp: +92 300-1234567
 📞 Phone: +92 300-1234567
 📧 Email: muhammadmateen546@gmail.com
+
 🔗 LinkedIn Profile: https://www.linkedin.com/in/hafizmuhammadmateen
