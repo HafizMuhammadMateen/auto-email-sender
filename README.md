@@ -16,13 +16,19 @@ It supports **rich-text formatting** (bold/italic) in the email body and shows a
 * 📌 `HRs Emails.xlsx` is already included in the project folder — no need to create or mess with it.
 * 📨 A sample email body text is provided in `Sample_Email.md` for quick use (or write your own).
 * 🚀 One-click startup via `start.py` (installs missing dependencies automatically).
+* 🖥️ Works on **Windows, Linux, and macOS** (with official Python).
 
 ---
 
 ## Requirements
 
-* Python **3.8+**
-* No need to manually install packages — `start.py` will auto-install missing ones.
+* Python **3.8+** (⚠️ Use the **official Python installer**, not MSYS2 or Anaconda for best results).
+* No need to manually install packages — `start.py` will auto-install:
+
+  * `pandas`
+  * `openpyxl`
+
+`Tkinter`, `smtplib`, and `email` are part of the Python standard library.
 
 ---
 
@@ -88,13 +94,22 @@ It supports **rich-text formatting** (bold/italic) in the email body and shows a
 ## Notes
 
 * Only **PDF files** are supported as attachments.
+
 * Keep `HRs Emails.xlsx` in the same directory as the script.
+
 * The tool uses **SMTP (smtp.gmail.com:587)**.
+
 * If you get login errors, double-check:
 
   * Gmail address is correct.
   * App Password (16 characters) is used.
-  * Less secure app access is **NOT needed** (this works with App Passwords).
+  * Less secure app access is **NOT needed** (App Password handles security).
+
+* If you have multiple Python installs:
+
+  * Run `where python` (Windows) or `which python3` (Linux/macOS) to confirm.
+  * Path should look like:
+    `C:\Users\<You>\AppData\Local\Programs\Python\Python311\python.exe` (✅ Official Python).
 
 ---
 
@@ -113,9 +128,13 @@ Run:
 python start.py
 ```
 
+**Contributors note:**
+
+* A `.gitignore` file is included to avoid committing temporary files (like `.pyc`, `__pycache__`, or local test data).
+* No `requirements.txt` needed anymore — `start.py` takes care of dependencies.
+
 ---
 
 ## License
 
 This project is free to use for personal or educational purposes.
-
